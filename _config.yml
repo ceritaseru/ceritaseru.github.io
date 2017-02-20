@@ -9,6 +9,7 @@ url: "http://ceritaseru.github.io"
 gems: ["jekyll-paginate"]
 paginate: 3
 author: "Cerita Seru"
+future: true
 
 # Build settings
 markdown: kramdown
