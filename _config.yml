@@ -1,0 +1,68 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: CERITA SERU
+description: "Koleksi kumpulan ribuan humor dewasa paling gokil semua ada di sini, cerita lucu hot seram horor romantis dan jorok semuanya lengkap terbaru."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://ceritaseru.github.io"
+gems: ["jekyll-paginate"]
+paginate: 3
+author: "Cerita Seru"
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+#paging#
+timezone:    Asia/Dhaka
+
+#Webmaster#
+google_verify: ""
+bing_verify: ""
+
+#highlighter: pygments
+#paginate_path: "/page:num"
+
+colors:  #in hex code if not noted else
+  primary: "#00b3fe" #"#F70031" 
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#384452" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: dribbble
+    url:
+  - title: facebook
+    url: http://facebook.com/mariadi.andi
+  - title: twitter
+    url: http://twitter.com/andi_mariadi
+  - title: instagram
+    url: http://instagram.com/andimariadi
+  - title: tumblr
+    url: 
+    
+# Owner
+owner:
+  name:           Andi Mariadi
+  email:          mariadi.andi@gmail.com
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        andi_mariadi
+  facebook:       mariadi.andi
+  github:         ceritaseru      
+  instagram:      andimariadi
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    https://plus.google.com/u/0/102602916593522619858
+
+tel: +34 8493-4893
+
+about: "Koleksi kumpulan ribuan humor dewasa paling gokil semua ada di sini, cerita lucu hot seram horor romantis dan jorok semuanya lengkap terbaru."
